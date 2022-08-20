@@ -1,5 +1,7 @@
-*{width:80%}
-h1{color:blue}
+*{ color: aquamarine;
+    font-family:arial;}
+h1{color:rgb(59, 197, 94)}
 p{color:blueviolet}
 nav{ width: 25;height: 20px; ;}
 .altura_barra{padding: 0.5em;}
+h6{color:rgb(80, 226, 43)}
