@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>  
- <header class="container">
+ <header class="container-fluid p-0">
   <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid altura_barra">
     <img src="APLogo-20-20.png" class="img-thumbnail bg-dark" alt="" width="80" height="40" class="d-inline-block align-text-top">
     <a class="navbar-brand" href="#">
-     <img src="APLogo-20-20.png" alt="C:\Users\Angeles\Desktop\pruebagit\Portfolio Frontend\portfolio-frontend\Portfolio Frontend\Maqueta" width="30"height="24" class="d-inline-block align-text-top"> 
      #Yo Programo</a>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,51 +48,71 @@
   <div style="height: 100px; background-color: rgba(0, 81, 255, 0.1);">
   <div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,.1);"></div>
   </div>
- <br>
- <br>
- <span class="border"> Acerca de</span>
+  <span class="border"><strong>Acerca de</strong></span>
     <div class="d-flex">
     <div class="flex-shrink-0">
       <img src="C:\Users\Angeles\Desktop\pruebagit\Portfolio Frontend\portfolio-frontend\Portfolio Frontend\Maqueta" alt="" width="30"height="30">
     </div>
-    <div class="flex-grow-1 ms-3">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, placeat. Repellat voluptates eaque facere eum repudiandae nesciunt sequi enim quo ex asperiores. Illum, error! Illum ad earum at modi eos.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita ea architecto, quae iusto excepturi perspiciatis odit similique natus amet eos aliquid ipsam possimus. Deserunt ratione earum quia sequi voluptates. 
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tenetur aliquam repellat totam? Corporis neque ex quo officia reiciendis voluptatem beatae quibusdam ipsum accusamus, hic molestiae corrupti dignissimos debitis rerum
-    </p>
+    <div class="border border-success p-2 mb-2">This is default success border</div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, officiis id delectus vero vel sequi consequuntur ratione, sed natus nummmmm Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam perspiciatis tenetur, quas natus eos, sapiente, adipisci ullam dolores voluptates explicabo. Fuga error officiis quo animi cumque est temporibus possimus?</p>
+    <div class="border border-success p-2 mb-2" style="--bs-border-opacity: .5;"><i class="fa-solid fa-pen"></i>This is 50% opacity success border</div>
+    </div>
+    <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+    changing border color and width
     </div>
   </div>
-   <br> 
-   <span class="border"> Experiencia</span>
-   <div class="d-flex">
-   <div class="flex-shrink-0">
-     <img src="C:\Users\Angeles\Desktop\pruebagit\Portfolio Frontend\portfolio-frontend\Portfolio Frontend\Maqueta" alt="" width="30"height="30">
-   </div>
-   <div class="flex-grow-1 ms-3">
-   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, placeat. Repellat voluptates eaque facere eum repudiandae nesciunt sequi enim quo ex asperiores. Illum, error! Illum ad earum at modi eos.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita ea architecto, quae iusto excepturi perspiciatis odit similique natus amet eos aliquid ipsam possimus. Deserunt ratione earum quia sequi voluptates. 
-     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tenetur aliquam repellat totam? Corporis neque ex quo officia reiciendis voluptatem beatae quibusdam ipsum accusamus, hic molestiae corrupti dignissimos debitis rerum
-   </p>
-   </div>
- </div>
- <br>
- <span class="border"> Educacion</span>
- <div class="d-flex">
- <div class="flex-shrink-0">
-   <img src="C:\Users\Angeles\Desktop\pruebagit\Portfolio Frontend\portfolio-frontend\Portfolio Frontend\Maqueta" alt="" width="30"height="30">
- </div>
- <div class="flex-grow-1 ms-3">
- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, placeat. Repellat voluptates eaque facere eum repudiandae nesciunt sequi enim quo ex asperiores. Illum, error! Illum ad earum at modi eos.
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita ea architecto, quae iusto excepturi perspiciatis odit similique natus amet eos aliquid ipsam possimus. Deserunt ratione earum quia sequi voluptates. 
-   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tenetur aliquam repellat totam? Corporis neque ex quo officia reiciendis voluptatem beatae quibusdam ipsum accusamus, hic molestiae corrupti dignissimos debitis rerum
- </p>
- </div>
-</div>     
-    <br>   
+ <span class="border"><strong>Experiencia</strong></span>
+<div class="d-grid gap-3">
+  <div class="p-2 bg-light border">Grid item 1</div>
+  <div class="p-2 bg-light border">Grid item 2</div>
+  <div class="p-2 bg-light border">Grid item 3</div>
+</div>    
+<span class="border"><strong>Educacion</strong></span>
+<div class="d-grid gap-3">
+ <div class="p-2 bg-light border">Grid item 1</div>
+  <div class="p-2 bg-light border">Grid item 2</div>
+  <div class="p-2 bg-light border">Grid item 3</div>
+  </div>        
    <h2>holla</h2>
    <i class="fa-solid fa-pen"></i>
    <i class="fa-regular fa-camera-retro"></i>
-   <i class="fa-thin fa-citrus-slice"></i>
-   </div>
+   <i class="fa-solid fa-camera-retro"></i>
+   <i class="fa-brands fa-amazon"></i>
+   <i class="fa-brands fa-linkedin-in"></i>
+   <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      <div class="card" aria-hidden="true">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title placeholder-glow">
+          <span class="placeholder col-6"></span>
+        </h5>
+        <p class="card-text placeholder-glow">
+          <span class="placeholder col-7"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-6"></span>
+          <span class="placeholder col-8"></span>
+        </p>
+        <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
   </body>
 </html>
