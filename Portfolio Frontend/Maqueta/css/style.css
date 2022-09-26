@@ -6,7 +6,7 @@ nav{ width: 55;height: 90px; background: rgb(111, 144, 241); }
 .mat-card{border-radius: 32px;
     margin: 10px 10px;
     padding: 5px;
-    border-color:rgb(29, 44, 73)}
+    border-color:rgb(236, 238, 241)}
 .navbar.navbar-expand-lg.bg-light{ background-color: rgb(229, 235, 245) !important;}
 .container {justify-content: flex-center;  }
 .fa-brands.fa-instagram.fa-lg:hover{color: rgba(243, 242, 234, 0.747);}
@@ -21,4 +21,6 @@ footer{text-align: justify;padding: auto;font-family: 'Gill Sans', 'Gill Sans MT
 .card.mat-card {background: rgba(185, 200, 230, 0.623); }
 .carousel-item.active {padding: 0cm;}
 .img-thumbnail.bg-dark{ padding: 0cm;}
+.card-dashboard {margin-top: 0cm;padding: 0cm;}
+
 
