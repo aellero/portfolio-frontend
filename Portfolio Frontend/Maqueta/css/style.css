@@ -14,8 +14,8 @@ p{color:rgb(60, 99, 150)}
 .button.btn.btn-primary.position-relative{color: beige;}
 .carousel-item {background:rgb(242, 245, 78)}
 body {background-color: rgba(242, 245, 78, 0.932) !important}
-footer{text-align: justify;padding: auto;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(242, 248, 242);}
-.card.mat-card {background: rgba(133, 164, 228, 0.623); }
+footer{text-align: justify;padding: auto;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(255, 252, 96);}
+.card.mat-card {background: rgba(216, 230, 241, 0.884); }
 .carousel-item.active {padding: 0cm;}
 .img-thumbnail.bg-dark{ padding: 0cm;}
 .card.dashboard {margin-top:0em;}
