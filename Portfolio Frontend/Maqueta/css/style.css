@@ -3,7 +3,7 @@ p{color:rgb(60, 99, 150)}
 .mat-card{border-radius: 32px;
     margin: 10px 10px;
     padding: 5px;
-    border-color:rgb(243, 243, 207);}
+    border-color:rgb(37, 37, 36)!important}
 .navbar.navbar-expand-lg.bg-light{ background-color: rgb(242, 245, 78) !important;}
 .container {justify-content: flex-center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  }
 .fa-brands.fa-instagram.fa-lg:hover{color: rgba(243, 242, 234, 0.747);}
@@ -15,7 +15,7 @@ p{color:rgb(60, 99, 150)}
 .carousel-item {background:rgb(242, 245, 78)}
 body {background-color: rgba(242, 245, 78, 0.932) !important}
 footer{text-align: justify;padding: auto;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(255, 252, 96);}
-.card.mat-card {background: rgba(216, 230, 241, 0.884); }
+.card.mat-card {background: rgba(230, 240, 87, 0.842); }
 .carousel-item.active {padding: 0cm;}
 .img-thumbnail.bg-dark{ padding: 0cm;}
 .card.dashboard {margin-top:0em;}
